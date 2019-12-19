@@ -6,6 +6,6 @@ ADD conf.d/*.conf /etc/httpd/conf.d/
 
 ADD index.html /opt/rh/httpd24/root/var/www/html/
 
-#EXPOSE 8000 
+EXPOSE 8000 
 
-ENTRYPOINT ["/opt/rh/httpd24/root/usr/sbin/httpd","-D","FOREGROUND"]
+#ENTRYPOINT ["/opt/rh/httpd24/root/usr/sbin/httpd","-D","FOREGROUND"]
