@@ -5,4 +5,4 @@ ADD conf.d/*.conf /etc/httpd/conf/
 
 ADD index.html /opt/rh/httpd24/root/var/www/html/
 
-EXPOSE 8080 
+EXPOSE 8000 
